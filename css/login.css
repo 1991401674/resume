@@ -1,0 +1,22 @@
+.login_form{
+    width: 20rem;
+    position: absolute;
+    top: 300px;
+    left: 60%;
+}
+.register_form{
+    width: 45rem;
+    height: 25rem;
+    position: absolute;
+    top: 220px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    z-index: 9999;
+}
+form>div:nth-child(3)>input{
+    background: url("../img/username.gif") no-repeat left center;
+}
+form>div:nth-child(4)>input{
+    background: url("../img/password.gif") no-repeat left center;
+}

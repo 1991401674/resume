@@ -1,0 +1,43 @@
+header.header .d1{
+    background: #fafafa;
+    font-size: 0.7rem;
+}
+header.header .search{
+    margin-left: -0.3rem;
+}
+input,button{
+    outline: none;
+}
+header a:hover{
+    color: #dc3545 !important;
+}
+.ewm0:hover .ewm1{
+    display: block;
+}
+.h_lbt{
+    overflow: hidden;
+    width: 13rem;
+}
+.h_lbt>div{
+    animation:h_lbt 5s ease-out infinite alternate;
+    width: 26rem;
+}
+.h_lbt>div>a>img{
+    width: 13rem;
+}
+@keyframes h_lbt {
+    0%,40%{
+        transform: translate(0rem);
+    }
+    60%,100%{
+        transform:translate(-13rem);
+    }
+}
+.ewm1{
+    position: absolute;
+    top: 2rem;
+    left:12rem;
+    z-index: 10;
+    display: none;
+    width: 4rem;
+}

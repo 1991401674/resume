@@ -1,0 +1,100 @@
+.my_title>div>a:hover{
+    background: white;
+    color: #dc3545 !important;
+}
+.my_card a img{
+    transition: all 0.2s ease-in;
+}
+.my_card a img:hover{
+    transform: translateY(-0.3rem);
+    box-shadow: 0 0 0.2rem 0.2rem #ddd;
+}
+.dashed{
+    border-right: 1px dashed #d8d8d8;
+}
+.my-border-bottom{
+    border-bottom: 0.2rem solid #000;
+}
+.my_m{
+    margin-top:-1.5rem;
+}
+.my_rem12{
+    height: 12rem;
+}
+.my_rem24{
+    height: 173px !important;
+}
+.my_mg{
+    margin-top:-1.3rem;
+}
+.w-65{
+    width: 65% !important;
+}
+.w-74{
+    width: 74% !important;
+}
+.w-47{
+    width: 47% !important;
+}
+.my_bg27{
+    background: #272727;
+}
+#cbl{
+    width: 6rem;
+    height: 6rem;
+    position:fixed;
+    bottom: 50%;
+	top:50%;
+    left: 92%;
+    box-sizing: border-box;
+    opacity: 0.5;
+    z-index: 1000;
+    border-radius: 50%;
+    overflow: hidden;
+	transition:opacity 0.5s linear;
+	cursor:pointer;
+}
+#cbl:hover{
+    opacity:0.8;
+}
+#cbl>input{
+    position:absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    display: none;
+    
+}
+.a1{
+    position:absolute;
+    top: 350px;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+.a2{
+    position:absolute;
+    bottom: 350px;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+.a3{
+    position:absolute;
+    top: 0;
+    bottom: 0;
+    right: 350px;
+    margin: auto;
+}
+.a4{
+    position:absolute;
+    top: 0;
+    bottom: 0;
+    left: 350px;
+    margin: auto;
+}
+.bg-ff{
+    background: #7d7d7d;
+}

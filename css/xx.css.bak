@@ -1,0 +1,70 @@
+.my-border2{
+    border: 2px solid #dee2e6;
+}
+.border-active{
+    border: 2px solid #c40000 !important;
+}
+.font-big{
+    font-size: 22px;
+}
+.my_img{
+    width: 20px;
+    height: 20px;
+}
+.my-active{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    bottom: -6px;
+    left: 40px;
+}
+.wh{
+    width: 41.5px;
+    height: 27px;
+}
+.outline-0{
+    outline: none !important;
+}
+.p-absolute{
+    text-align: center;
+    position: relative;
+    top:-30px;
+    z-index: 99;
+    margin:auto;
+    font-size: larger;
+}
+.text-overflow{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.comment>div>div{
+    width: 100%;
+    height: 5rem;
+}
+.time{
+    position: relative;
+    top:-20px;
+    left:100px;
+}
+.fdj{
+    position: absolute;
+    top:1rem;
+    left: 100%;
+    border:1px solid #ddd;
+    z-index: 99;
+}
+.jz{
+    position: absolute;
+    top: 0;
+    left:0;
+    border:1px solid #d8d8d8;
+    background: red;
+    opacity: 0.3;
+    box-sizing: border-box;
+}
+.tm{
+    position: absolute;
+    top: 1rem;
+    left: 1rem;
+}

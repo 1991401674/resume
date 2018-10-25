@@ -1,0 +1,72 @@
+.login_form{
+    width: 20rem;
+    height: 18rem;
+    position: absolute;
+    top: 300px;
+    left: 60%;
+}
+form>div:nth-child(2)>input{
+    background: url("../img/username.gif") no-repeat left center;
+}
+form>div:nth-child(3)>input{
+    background: url("../img/password.gif") no-repeat left center;
+}
+#cbl{
+    width: 5rem;
+    height: 5rem;
+    position:fixed;
+    bottom: 50%;
+    left: 92%;
+    box-sizing: border-box;
+    opacity: 0.5;
+    z-index: 1000;
+    border-radius: 50%;
+    overflow: hidden;
+}
+#cbl:hover{
+    opacity:0.8;
+}
+#cbl>input{
+    position:absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    display: none;
+    
+}
+.a1{
+    position:absolute;
+    top: 350px;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+.a2{
+    position:absolute;
+    bottom: 350px;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+.a3{
+    position:absolute;
+    top: 0;
+    bottom: 0;
+    right: 350px;
+    margin: auto;
+}
+.a4{
+    position:absolute;
+    top: 0;
+    bottom: 0;
+    left: 350px;
+    margin: auto;
+}
+.bg-ff{
+    background: #7d7d7d;
+}
+.my_bg27{
+    background: #272727;
+}

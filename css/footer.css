@@ -1,0 +1,9 @@
+.dashed{
+    border-left:1px dashed #d8d8d8;
+}
+.bgb{
+    background-color: #1a1d1f;
+}
+footer a,footer a li:hover{
+    color:darkred !important;
+}

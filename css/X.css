@@ -1,0 +1,28 @@
+.border-muted{
+    border:#8d8d8d !important;
+}
+.No{
+    position: relative;
+    top:-180px;
+    left: 70%;
+}
+.am{
+    margin-top:-30px;
+}
+.border-dashed{
+    border-bottom:1px dashed #dee2e6;
+}
+.bg-muted{
+    background: #dee2e6 !important;
+}
+.my_ic{
+    background: url("../img/icon1.png") no-repeat center;
+    background-size: cover;
+    width: 10px;
+    height: 7px;
+}
+.overflow-hidden{
+    overflow:hidden;
+    text-overflow:ellipsis;
+    white-space:nowrap;
+}
