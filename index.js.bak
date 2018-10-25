@@ -1,0 +1,33 @@
+var gj=document.getElementById("cbl");
+var lc=document.getElementById("lc");
+var a1=gj.children[1];
+var a2=gj.children[2];
+var a3=gj.children[3];
+var a4=gj.children[4];
+var scrollTop=
+    document.documentElement.scrollTop;
+var doctop1=document.getElementById("f1").offsetTop;
+	var doctop2=document.getElementById("f2").offsetTop;
+	var doctop3=document.getElementById("f3").offsetTop;
+	var doctop4=document.getElementById("f4").offsetTop;
+if(scrollTop>doctop1&&doctop2>scrollTop){
+        a1.style.background="green";
+		gj.innerHTML="1f";
+    }else{
+        a1.style.background="#7d7d7d";
+    }
+    if(scrollTop>doctop2&&doctop3>scrollTop){
+        a2.style.background="green";
+    }else{
+        a2.style.background="#7d7d7d";
+    }
+    if(scrollTop>doctop3&&doctop4>scrollTop){
+        a3.style.background="green";
+    }else{
+        a3.style.background="#7d7d7d";
+    }
+    if(scrollTop>doctop4&&doctop4+1500>scrollTop){
+        a4.style.background="green";
+    }else{
+        a4.style.background="#7d7d7d";
+    }
