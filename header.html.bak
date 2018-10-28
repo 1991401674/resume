@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" href="../css/bootstrap.css"/>
+    <link rel="stylesheet" href="../css/my.css"/>
+    <link rel="stylesheet" href="../css/header.css"/>
+    <!--<script src="../js/bootstrap.min.js"></script>
+    <script src="../js/jquery.min.js"></script>
+    <script src="../js/popper.min.js"></script>-->
+</head>
+<body>
+    <header class="header w-100">
+        <div class="row p-2 d1 m-0">
+            <div class="col-6 offset-1">
+                <span class="pl-5 pr-4 mr-4">您好，欢迎光临特步官方商城！</span>
+                <span>
+                    <a href="#"class="">注册</a>
+                    <a href="./login.html"class="mr-1">登录</a>
+                </span>
+            </div>
+            <div class="col-5">
+                <a href="#" class="mr-4 ml-4">我的特步</a>
+                <a href="#" class="mr-4">品牌官网</a>
+                <a href="#" class="mr-4 ewm0">
+                    <img src="../img/mobile_icon.png" alt=""/>
+                    手机特步
+                    <img src="../img/down_icon.png" alt=""/>
+                    <img src="../img/mobile_scan.jpg" alt=""class="ewm1"/>
+                </a>
+                <a href="#" class="mr-4">
+                    <img src="../img/cart_icon.png" alt=""/>
+                    购物车<span class="text-danger">（0）</span>件
+                </a>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row p-3">
+                <div class="col-3">
+                    <img src="../img/logo.png" alt=""class="w-100 h-100"/>
+                </div>
+                <div class="col-5 pl-4 pr-0">
+                    <input type="text"class="pt-2 pb-2 border-danger mt-2 w-100"/>
+                    <div class="ml-1 small mt-1">
+                        <a href="#"class="text-muted mr-2">热卖搜索：</a>
+                        <a href="#"class="text-muted mr-2">跑鞋</a>
+                        <a href="#"class="text-muted mr-2">板鞋</a>
+                        <a href="#"class="text-muted mr-2">21代风火鞋</a>
+                        <a href="#"class="text-muted mr-2">动力巢X</a>
+                        <a href="#"class="text-muted">明星同款</a>
+                    </div>
+                </div>
+                <div class="col-1 pl-0">
+                    <button class="text-white pt-2 pb-2  mt-2 bg-danger border-danger search w-100">
+                        搜索
+                    </button>
+
+                </div>
+                <div class="col-3">
+                    <div class="h_lbt">
+                        <div class="d-flex">
+                            <a href="#"class="w-100"/>
+                            <img src="../img/huiyuan.jpg" alt=""/>
+                            </a>
+                            <a href="#"class="w-100">
+                                <img src="../img/210-70.jpg" alt=""/>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </header>
+</body>
+</html>
